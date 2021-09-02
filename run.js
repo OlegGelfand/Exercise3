@@ -1,0 +1,12 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var SolarSystem_1 = require("./src/SolarSystem");
+var solarSystem = new SolarSystem_1.SolarSystem();
+solarSystem.listPlanets1();
+solarSystem.listPlanetsReverse1();
+solarSystem.listPlanets2();
+solarSystem.listPlanetsReverse2();
+solarSystem.listPlanets3();
+solarSystem.listPlanetsReverse3();
+// solarSystem.listPlanets4();
+// solarSystem.listPlanetsReverse4();
